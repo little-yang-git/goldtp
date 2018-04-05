@@ -7,6 +7,7 @@
 # @Software: PyCharm
 
 l=[1,2,2,2,4]
-d={(23,33):33}
-s=set(l)
+d={(23,33):33,1:3}
+s=set(d.values())
 print (s)
+print(d)
